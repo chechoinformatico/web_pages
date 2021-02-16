@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+
+
+
+
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Fjalla One', sans-serif;
+    background-color: #e6e6e6;
+
+}
+
+.ll{
+  float: right;
+}
+
+
+.color-menu{
+    background-color: #000;
+    margin: 0;
+
+}
+
+.navbar-inverse .navbar-nav  li  a{
+    font-size: 18px;
+    color: #fff;
+    margin: 0 0 0 50px;
+
+
+}
+
+.navbar-inverse .navbar-nav li a:hover,
+.navbar-inverse .navbar-nav li a:focus {
+    color: coral;
+
+}
+
+
+.formulario{
+    height: 1500px;
+    background-image: url(../imagenes/foto_formulario.jpg);
+    background-repeat: no-repeat;
+    padding: 50px 0 0 50px;
+
+}
+
+
+
+.color-footer{
+    background-color: #000;
+    margin: 0;
+
+}
+
+.texto-imagen2{
+    height: 430px;
+    font-size: 30px;
+    color: #fff;
+    text-align:justify;
+    padding: 100px 0 0 0;
+    margin:0;
+
+}
+
+.contacto{
+    height: 30px;
+    margin: 0;
+    padding: 0 0 0 150PX;
+}
+
+.for22{
+  margin: 70px 0 70px 0;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 450px) and (max-width: 975px) {
+
+
+
+}
+
+
+
+
+
+@media screen and (min-width: 0px) and (max-width: 450px) {
+
+.formulario{
+    height: 1000px;
+    background-image: url(../imagenes/foto_formulario.jpg);
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+
+.color-footer{
+    background-color: #000;
+    margin: 0;
+
+}
+
+
+
+.texto-imagen2{
+    height: 100px;
+    font-size: 10px;
+    color: #fff;
+    text-align:justify;
+    padding: 0;
+    margin:0;
+
+}
+
+.contacto{
+    height: 30px;
+    margin:0;
+    padding:0 0 10px 20px;
+
+}
+
+.es-con{
+  margin: 0 0 30px 0;
+}
+
+
+
+}

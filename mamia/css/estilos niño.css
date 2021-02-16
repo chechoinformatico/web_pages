@@ -1,0 +1,305 @@
+@charset "UTF-8";
+
+
+
+
+
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Fjalla One', sans-serif;
+    background-color: #e6e6e6;
+
+}
+
+.ll{
+  float: right;
+}
+
+
+.color-menu{
+    background-color: #000;
+    margin: 0;
+    
+}
+
+.navbar-inverse .navbar-nav  li  a{
+    font-size: 18px;
+    color: #fff;
+    margin: 0 0 0 50px;
+
+
+}
+
+.navbar-inverse .navbar-nav li a:hover,
+.navbar-inverse .navbar-nav li a:focus {
+    color: coral;
+
+}
+
+
+
+
+
+.espacio-titulo{
+    margin: 250px 0 0 0;
+
+}
+
+
+
+.titulos-genericos{
+    font-size: 30px;
+    color: #000;
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+
+
+
+
+.espacio{
+    margin: 150px 0 0 0;
+}
+
+
+
+
+.franja1{
+    height: 455px;
+}
+
+.franja2{
+    height: 280px;
+    background-color: #fff;
+    margin: 87px 0 0 0;
+}
+
+
+.fondo-texto{
+    background-color: #fff;
+    margin: 130px 0 0 0;
+}
+
+
+.texto-imagen{
+    font-size: 20px;
+    color: #7d7979;
+    text-align:center;
+    margin: 50px;
+}
+
+.espacio1{
+    margin: 130px 0 0 0;
+    padding: 0;
+}
+
+.espacio-galeria{
+    height: 850px;
+    margin: 120px 0 0 0;
+    background-color: #fff;
+}
+
+.imagen{
+    margin: 40px 0 0 10px;
+    padding: 0;
+
+}
+
+
+.imagen2{
+    margin: 40px 0 0 0;
+   padding: 0;
+}
+
+.galerias{
+    padding: 0;
+    margin: 0;
+}
+
+.galerias2{
+    padding: 0;
+    margin: 20px 0 0 0;
+}
+
+
+.espacio-imagen2{
+    margin: 30px 0 0 0;
+}
+
+
+.logo{
+    padding: 0 0 0 100px;
+}
+
+
+
+.color-footer{
+    background-color: #000;
+    margin: 0;
+    
+}
+
+.texto-imagen2{
+    height: 430px;
+    font-size: 30px;
+    color: #fff;
+    text-align:justify;
+    padding: 100px 0 0 0;
+    margin:0;
+ 
+}
+
+.contacto{
+    height: 30px;
+    margin: 0;
+    padding: 0 0 0 150PX;
+}
+
+
+
+
+
+
+.contenedor-video{
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px;
+height: 0;
+overflow: hidden;
+display:block;
+}
+
+
+.contenedor-video iframe,
+.contenedor-video object,
+.contenedor-video embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 450px) and (max-width: 975px) {
+
+
+}
+
+
+
+
+
+@media screen and (min-width: 0px) and (max-width: 450px) {
+
+    
+    
+ .espacio{
+    margin:20px 0 0 0;
+}
+
+
+.fondo-texto{
+    height: 150px;
+    background-color: #fff;
+    margin:0;
+}
+
+.texto-imagen{
+    font-size: 10px;
+    color: #7d7979;
+    text-align:center;
+    padding:0;
+    margin:0;
+ 
+}
+
+
+.franja1{
+    height: 255px;
+    margin:20px 0 0 0;
+}
+
+.franja2{
+    height: 100px;
+    background-color: #fff;
+    margin:0;
+}
+
+.titulos-genericos{
+    font-size: 15px;
+    color: #000;
+    text-align: center;
+    padding: 5px 0 0 0;
+   
+}
+
+
+.imagen{
+    margin: 20px 0 0 0;
+    padding: 0;
+
+}
+
+
+.espacio-galeria{
+    height: 470px;
+    margin: 120px 0 0 0;
+    background-color: #fff;
+}    
+    
+    
+.logo{
+    padding: 0;
+}
+
+
+
+.color-footer{
+    background-color: #000;
+    margin: 0;
+    
+}
+
+.galerias3{
+    margin: 0;
+    padding: 0;
+
+    }
+
+.texto-imagen2{
+    height: 100px;
+    font-size: 10px;
+    color: #fff;
+    text-align:justify;
+    padding: 0;
+    margin:0;
+ 
+}
+
+.contacto{
+    height: 30px;
+    margin:0;
+    padding:0 0 10px 20px;
+ 
+}
+
+    
+    
+}
